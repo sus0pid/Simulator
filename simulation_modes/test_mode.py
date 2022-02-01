@@ -227,6 +227,7 @@ def run(exp_dir, conf_file=None, conf_dic=None):
 
     # Logging directory
     log_dir = os.path.join(exp_dir,conf["logging"]["dir"])
+    print(f'double check--log_dir = {log_dir}')
     # Setup environment
     env = setup_env(conf)
 
